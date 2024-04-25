@@ -8,6 +8,11 @@ This PowerShell script tests a POP3 connection using specified credentials and s
 - **Authenticates using provided credentials**: Verifies user credentials for access.
 - **Sends a Telegram message if authentication fails**: Alerts the user via Telegram about authentication failures.
 
+## Server 2016 Specific Version
+
+For users running this script on Server 2016, please use `Test-POP3Connection_Server2016.ps1`, which includes configurations to enforce the use of TLS 1.2. This ensures compatibility with security protocols required by modern network services.
+
+
 ## Requirements
 
 - **PowerShell 5.0 or higher**: Needed to execute the script.
